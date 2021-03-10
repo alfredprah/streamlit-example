@@ -16,4 +16,7 @@ def app():
   st.button('Healthcare', key=None)
   st.button('Voting Rights', key=None)
   st.button('Income Gap', key=None)
-  st.button('Black Lives Matter', key=None)
+  st.button('*Black Lives Matter', key=None)
+  """
+  """
+  st.write("The '*' is used to mark a label that's a subcategory but of great interest to researchers and scholars.")

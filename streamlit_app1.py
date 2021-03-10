@@ -23,7 +23,7 @@ def app():
     st.title('c4project - Black Lives Matter')
     """
     """
-    st.write("Tweets")
+    #st.write("Tweets")
     data = pd.read_csv('sample_tweets.csv')
     data_size = data.shape[0]
     st.write("There are " + str(data_size) + " tweets available on BLM")
@@ -35,7 +35,7 @@ def app():
     st.text("") 
     st.text("")  
     st.text("")
-    st.write("Web links from Tweets")
+    #st.write("Web links from Tweets")
     data2 = pd.read_csv('urls.csv')
     data_size2 = data2.shape[0]
     st.write("There are " + str(data_size2) + " urls associated with the tweets")

@@ -25,7 +25,11 @@ def app():
     """
     st.write("Tweets")
     data = pd.read_csv('sample_tweets.csv')
+    data_size = data.shape[0]
+    st.write("There are currently" + str(data_size) + "tweets available on BLM")
+    
     st.dataframe(data, width=None, height=None)
+    
     #st.line_chart(data.Time)
 
     st.text("") 

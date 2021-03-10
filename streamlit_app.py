@@ -6,8 +6,7 @@ import streamlit as st
 
 """
 # Welcome to the c4project Dashboard!
-
-This is our very first sample dashboard so cheers 🥂🍻
+<center> This is our very first sample dashboard so cheers 🥂🍻</center>
 
 If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
 forums](https://discuss.streamlit.io).

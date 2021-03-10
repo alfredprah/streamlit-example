@@ -42,6 +42,19 @@ def app():
     st.dataframe(data2, width=None, height=None)
     """
     """
+    fig, ax = plt.subplots(figsize=(8, 6))
+
+    # Plot histogram of the polarity values
+    sentiment_df.hist(bins=[-1, -0.75, -0.5, -0.25, 0.25, 0.5, 0.75, 1],
+             ax=ax,
+             color="purple")
+
+    st.altair_chart(plt.title("Current Sentiments on Tweets on BLM as of 2 PM CST")
+    plt.show())
+    
+    
+    
+    
     total_points = st.slider("Number of points in tweets", 1, 5000, 200)
     num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
     Point = namedtuple('Point', 'x y')

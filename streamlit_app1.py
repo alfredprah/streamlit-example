@@ -63,7 +63,7 @@ def app():
     st.bar_chart(sentiment_df.polarity)
 
    
-    
+    st.line_chart(data.Time)
     
     
     

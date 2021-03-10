@@ -9,5 +9,5 @@ import numpy as np
 import plotly.figure_factory as ff
 import matplotlib.pyplot as plt
 
-
-st.button('Gun Violence', key=None)
+def app():
+  st.button('Gun Violence', key=None)

@@ -28,8 +28,10 @@ def app():
     st.dataframe(data, width=None, height=None)
     #st.line_chart(data.Time)
 
-    """
-    """
+    st.text("")
+    st.text("") 
+    st.text("")  
+    st.text("")
     st.write("Web links")
     """
     """

@@ -14,7 +14,9 @@ import matplotlib.pyplot as plt
 #### This is our very first sample dashboard so cheers 🥂🍻
 """
 
-total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
+data = pd.read_csv('result.csv')
+print(data.shape)
+total_points = st.slider("Number of points in tweets", 1, 5000, 200)
 num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
 Point = namedtuple('Point', 'x y')
 data = []

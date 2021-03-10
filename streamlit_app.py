@@ -6,7 +6,7 @@ import streamlit as st
 PAGES = {
      "Home": streamlit_app2,
     "Black Lives Matter": streamlit_app1,
-     "Gun Violence": 
+     "Gun Violence"
    
 }
 st.sidebar.title('Navigation')

@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 def app():
   st.title("Welcome to c4projects's Dashboard for Protests.")
-  ####"This is our very first sample dashboard so cheers 🥂🍻"
+  st.write("This is our very first sample dashboard so cheers 🥂🍻")
   st.text("") 
   st.text("")  
   st.text("")

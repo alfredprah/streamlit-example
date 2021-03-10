@@ -31,7 +31,7 @@ def app():
     st.text("") 
     st.text("")  
     st.text("")
-    st.write("Web links")
+    st.write("Web links from Tweets")
     """
     """
     total_points = st.slider("Number of points in tweets", 1, 5000, 200)

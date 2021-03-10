@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 """
 # Welcome to the c4project Dashboard!
-This is our very first sample dashboard so cheers 🥂🍻
+## This is our very first sample dashboard so cheers 🥂🍻
 """
 
 total_points = st.slider("Number of points in spiral", 1, 5000, 2000)

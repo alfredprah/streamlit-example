@@ -1,4 +1,5 @@
 from collections import namedtuple
+import textblob
 from textblob import TextBlob
 import altair as alt
 import math

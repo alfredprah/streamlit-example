@@ -7,7 +7,7 @@ import streamlit as st
 """
 # Welcome to the c4project Dashboard!
 
-This is our very first sample dashboard to explore the possibilities of using Tweets to gauge the different trajectories of projests:
+This is our very first sample dashboard so cheers 🥂🍻
 
 If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
 forums](https://discuss.streamlit.io).

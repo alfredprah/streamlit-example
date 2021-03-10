@@ -22,7 +22,7 @@ Tweets:
 data = pd.read_csv('sample_tweets.csv')
 st.dataframe(data, width=None, height=None)
 
-st.line_chart(data[Time])
+st.line_chart(data.Time)
 
 total_points = st.slider("Number of points in tweets", 1, 5000, 200)
 num_turns = st.slider("Number of turns in spiral", 1, 100, 9)

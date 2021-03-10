@@ -46,6 +46,19 @@ def app():
     """
     fig, ax = plt.subplots(figsize=(8, 6))
 
+    # Create textblob objects of the tweets
+    sentiment_objects = [TextBlob(tweet) for tweet in tweets['Tweet']]
+
+    # Create list of polarity values and tweet text
+    sentiment_values = [[tweet.sentiment.polarity, str(tweet)] for tweet in sentiment_objects]
+
+    # Create dataframe containing the polarity value and tweet text
+    sentiment_df = pd.DataFrame(sentiment_values, columns=["polarity", "tweet"])
+
+    # plot polarities on a histogram:
+    fig, ax = plt.subplots(figsize=(8, 6))
+
+    
     # Plot histogram of the polarity values
     sentiment_df.hist(bins=[-1, -0.75, -0.5, -0.25, 0.25, 0.5, 0.75, 1],
              ax=ax,

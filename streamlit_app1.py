@@ -60,7 +60,7 @@ def app():
 
     st.write("Current Sentiments on Tweets on BLM as of 2 PM CST")
     # Plot histogram of the polarity values
-    st.bar_chart(sentiment_df)
+    st.bar_chart(sentiment_df.polarity)
 
    
     

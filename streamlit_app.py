@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 #### Black Lives Matter (BLM)
 Tweets:
 """
-data = pd.read_csv('result.csv')
+data = pd.read_csv('sample_tweets.csv')
 st.dataframe(data, width=None, height=None)
 
 total_points = st.slider("Number of points in tweets", 1, 5000, 200)

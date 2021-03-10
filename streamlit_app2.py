@@ -10,8 +10,11 @@ import plotly.figure_factory as ff
 import matplotlib.pyplot as plt
 
 def app():
-  st.title("Welcome to c4projects's Dashboard for Protests. /nThis is our very first sample dashboard so cheers 🥂🍻")
-  #st.write("This is our very first sample dashboard so cheers 🥂🍻")
+  st.title("Welcome to c4projects's Dashboard for Protests.")
+  ####"This is our very first sample dashboard so cheers 🥂🍻"
+  st.text("") 
+  st.text("")  
+  st.text("")
   st.button('Gun Violence', key=None)
   st.button('Refugee Crisis', key=None)
   st.button('Healthcare', key=None)

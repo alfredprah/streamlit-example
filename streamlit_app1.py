@@ -1,4 +1,5 @@
 from collections import namedtuple
+from textblob import TextBlob
 import altair as alt
 import math
 import pandas as pd

@@ -32,6 +32,8 @@ def app():
     st.text("")  
     st.text("")
     st.write("Web links from Tweets")
+    data2 = pd.read_csv('urls.csv')
+    st.dataframe(data2, width=None, height=None)
     """
     """
     total_points = st.slider("Number of points in tweets", 1, 5000, 200)

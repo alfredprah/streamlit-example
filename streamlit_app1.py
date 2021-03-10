@@ -22,7 +22,7 @@ Tweets:
 def app():
     data = pd.read_csv('sample_tweets.csv')
     st.dataframe(data, width=None, height=None)
-    st.line_chart(data.Time)
+    #st.line_chart(data.Time)
 
     total_points = st.slider("Number of points in tweets", 1, 5000, 200)
     num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
@@ -38,6 +38,6 @@ def app():
         y = radius * math.sin(angle)
         data.append(Point(x, y))
     
-    #st.altair_chart(alt.Chart(pd.DataFrame(data), height=500, width=500)
-                #.mark_circle(color='#0068c9', opacity=0.5)
-               # .encode(x='x:Q', y='y:Q'))
+    st.altair_chart(alt.Chart(pd.DataFrame(data), height=500, width=500)
+                .mark_circle(color='#0068c9', opacity=0.5)
+                .encode(x='x:Q', y='y:Q'))

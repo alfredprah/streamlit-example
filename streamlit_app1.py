@@ -58,11 +58,9 @@ def app():
     # plot polarities on a histogram:
     fig, ax = plt.subplots(figsize=(8, 6))
 
-    st.altair_chart("Current Sentiments on Tweets on BLM as of 2 PM CST")
+    st.write("Current Sentiments on Tweets on BLM as of 2 PM CST")
     # Plot histogram of the polarity values
-    sentiment_df.hist(bins=[-1, -0.75, -0.5, -0.25, 0.25, 0.5, 0.75, 1],
-             ax=ax,
-             color="purple")
+    st.bar_chart(sentiment_df)
 
    
     

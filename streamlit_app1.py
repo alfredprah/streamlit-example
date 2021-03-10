@@ -21,6 +21,9 @@ Tweets:
 """
 def app():
     st.title('c4project - Black Lives Matter')
+    """
+    """
+    st.write("Tweets")
     data = pd.read_csv('sample_tweets.csv')
     st.dataframe(data, width=None, height=None)
     #st.line_chart(data.Time)

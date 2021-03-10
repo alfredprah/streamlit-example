@@ -59,12 +59,17 @@ def app():
 
     # plot polarities on a histogram:
     fig, ax = plt.subplots(figsize=(8, 6))
-
+    st.text("") 
+    st.text("")  
+    st.text("")
     st.write("Current Sentiments on Tweets on BLM as of 2 PM CST")
     # Plot histogram of the polarity values
     st.bar_chart(sentiment_df.polarity)
-
-   
+    
+    
+    st.text("") 
+    st.text("")  
+    st.text("")
     st.line_chart(data.Time)
     
     

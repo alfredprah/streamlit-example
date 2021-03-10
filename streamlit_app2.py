@@ -10,4 +10,4 @@ import plotly.figure_factory as ff
 import matplotlib.pyplot as plt
 
 
-st.button(Gun Violence, key=None)
+st.button('Gun Violence', key=None)

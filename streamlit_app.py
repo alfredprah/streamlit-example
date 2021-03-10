@@ -4,8 +4,9 @@ import streamlit_app2
 
 import streamlit as st
 PAGES = {
-    "Black Lives Matter": streamlit_app1,
-    "Home": streamlit_app2
+     "Home": streamlit_app2,
+    "Black Lives Matter": streamlit_app1
+   
 }
 st.sidebar.title('Navigation')
 selection = st.sidebar.radio("Go to", list(PAGES.keys()))

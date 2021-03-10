@@ -28,6 +28,8 @@ def app():
     st.dataframe(data, width=None, height=None)
     #st.line_chart(data.Time)
 
+    
+    str.text("Web links")
     total_points = st.slider("Number of points in tweets", 1, 5000, 200)
     num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
     Point = namedtuple('Point', 'x y')

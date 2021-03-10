@@ -15,7 +15,9 @@ import matplotlib.pyplot as plt
 """
 
 data = pd.read_csv('result.csv')
+
 st.dataframe(data, width=None, height=None)
+
 total_points = st.slider("Number of points in tweets", 1, 5000, 200)
 num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
 Point = namedtuple('Point', 'x y')

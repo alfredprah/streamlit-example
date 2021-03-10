@@ -49,8 +49,7 @@ def app():
              ax=ax,
              color="purple")
 
-    st.altair_chart(plt.title("Current Sentiments on Tweets on BLM as of 2 PM CST")
-    plt.show())
+    st.altair_chart(plt.title("Current Sentiments on Tweets on BLM as of 2 PM CST"))
     
     
     

@@ -26,7 +26,7 @@ def app():
     st.write("Tweets")
     data = pd.read_csv('sample_tweets.csv')
     data_size = data.shape[0]
-    st.write("There are currently" + str(data_size) + "tweets available on BLM")
+    st.write("There are " + str(data_size) + " tweets available on BLM")
     
     st.dataframe(data, width=None, height=None)
     
@@ -37,6 +37,8 @@ def app():
     st.text("")
     st.write("Web links from Tweets")
     data2 = pd.read_csv('urls.csv')
+    data_size2 = data2.shape[0]
+    st.write("There are " + str(data_size2) + " urls associated with the tweets")
     st.dataframe(data2, width=None, height=None)
     """
     """

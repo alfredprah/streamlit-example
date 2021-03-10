@@ -47,7 +47,7 @@ def app():
     fig, ax = plt.subplots(figsize=(8, 6))
 
     # Create textblob objects of the tweets
-    sentiment_objects = [TextBlob(tweet) for tweet in tweets['Tweet']]
+    sentiment_objects = [TextBlob(tweet) for tweet in data['Tweet']]
 
     # Create list of polarity values and tweet text
     sentiment_values = [[tweet.sentiment.polarity, str(tweet)] for tweet in sentiment_objects]

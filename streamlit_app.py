@@ -4,7 +4,8 @@ import math
 import pandas as pd
 import streamlit as st
 
-from sqlalchemy import create_engine
+import SQLALchemy
+from SQLALchemy import create_engine
 from config import DBConfig
 import datetime
 

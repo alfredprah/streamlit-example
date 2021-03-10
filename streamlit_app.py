@@ -14,9 +14,12 @@ import matplotlib.pyplot as plt
 #### This is our very first sample dashboard so cheers 🥂🍻
 """
 
-data = pd.read_csv('result.csv')
 
+"""
 #### Black Lives Matter (BLM)
+Tweets:
+"""
+data = pd.read_csv('result.csv')
 st.dataframe(data, width=None, height=None)
 
 total_points = st.slider("Number of points in tweets", 1, 5000, 200)

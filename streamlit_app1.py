@@ -23,6 +23,8 @@ Tweets:
 """
 def app():
     st.title('c4project - Black Lives Matter')
+    st.text("") 
+    st.text("")  
     """
     """
     #st.write("Tweets")

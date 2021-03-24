@@ -31,8 +31,8 @@ def app():
     data = pd.read_csv('sample_tweets.csv')
     data_size = data.shape[0]
 
-    html = f"<a href='<img src='blm.jpeg;base64,{image_base64}'></a>" 
-    st.markdown(html, unsafe_allow_html=True)
+    <img src="blm.jpeg" alt="hi" class="inline"/>
+    #st.markdown(html, unsafe_allow_html=True)
     
     st.write("There are " + str(data_size) + " tweets available on BLM")
     

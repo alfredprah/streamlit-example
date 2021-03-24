@@ -30,9 +30,6 @@ def app():
     #st.write("Tweets")
     data = pd.read_csv('sample_tweets.csv')
     data_size = data.shape[0]
-
-    <img src="blm.jpeg" alt="hi" class="inline"/>
-    #st.markdown(html, unsafe_allow_html=True)
     
     st.write("There are " + str(data_size) + " tweets available on BLM")
     
